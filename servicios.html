@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="css/bootstrap.min_4-3-1.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <!-- Estilo para el Navigtion Bar-->
+  <link rel="stylesheet" href="css/stylegeneral.css">
+  <!-- Estilo para el carrusel de imagenes -->
+  <link rel="stylesheet" href="css/stylecarousel.css">
+<title>Servicios</title>
+</head>
+<body>
+<!-- DIV con las opciones de la página-->
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active nav-link">INICIO</a>
+  <a class="nav-link" href="portafolio.html">PORTAFOLIO</a>
+  <a class="nav-link" href="contacto.html">CONTACTO</a>
+  <!-- Social Media Icons -->
+  <!-- Facebook -->
+  <a class="nav-link" style="background-color: #3b5998;" href="https://www.facebook.com/tecnobytedigital"><i class="fab fa-facebook-f"></i></a>
+  <!-- Instagram -->
+  <a class="nav-link" style="background-color: #ac2bac;" href="https://www.instagram.com/tecnobyte_peninsula"><i class="fab fa-instagram"></i></a>
+  <!-- Whatsapp -->
+  <a class="nav-link" style="background-color: #25d366;" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<!-- Carousel Images-->
+<div class="container text-center">
+  <h1 class="font-weight-light mb-5">Nuestros servicios</h1>
+  <div class="row mx-auto my-auto">
+    <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+      <div class="carousel-inner w-100" role="listbox">
+        <div class="carousel-item active">
+          <div class="col-lg-4 col-md-6">
+            <img class="img-fluid" src="http://placehold.it/350x180?text=1">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-4 col-md-6">
+            <img class="img-fluid" src="http://placehold.it/350x180?text=2">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-4 col-md-6">
+            <img class="img-fluid" src="http://placehold.it/350x180?text=3">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-4 col-md-6">
+            <img class="img-fluid" src="http://placehold.it/350x180?text=4">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-4 col-md-6">
+            <img class="img-fluid" src="http://placehold.it/350x180?text=5">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-4 col-md-6">
+            <img class="img-fluid" src="http://placehold.it/350x180?text=6">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev bg-dark w-auto" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next bg-dark w-auto" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div>
+<script>
+  try {
+    fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+      return true;
+    }).catch(function(e) {
+      var carbonScript = document.createElement("script");
+      carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+      carbonScript.id = "_carbonads_js";
+      document.getElementById("carbon-block").appendChild(carbonScript);
+    });
+  } catch (error) {
+    console.log(error);
+  }
+</script>
+<!--scripts libraries loaded here-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/carousel.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

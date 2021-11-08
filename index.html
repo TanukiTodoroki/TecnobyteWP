@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/bootstrap.min_4-3-1.css">
+    <!-- Estilo para el Navigtion Bar-->
+    <link rel="stylesheet" href="css/stylegeneral.css">
+    <title>TECNOBYTE</title>
+</head>
+<body>
+<!-- DIV con las opciones de la página-->
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">INICIO</a>
+    <a class="nav-link" href="portafolio.html">PORTAFOLIO</a>
+    <a class="nav-link" href="servicios.html">SERVICIOS</a>
+    <a class="nav-link" href="contacto.html">CONTACTO</a>
+    <!-- Social Media Icons -->
+    <!-- Facebook -->
+    <a class="nav-link" style="background-color: #3b5998;" href="https://www.facebook.com/tecnobytedigital"><i class="fab fa-facebook-f"></i></a>
+    <!-- Instagram -->
+    <a class="nav-link" style="background-color: #ac2bac;" href="https://www.instagram.com/tecnobyte_peninsula"><i class="fab fa-instagram"></i></a>
+    <!-- Whatsapp -->
+    <a class="nav-link" style="background-color: #25d366;" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+    }
+</script>
+</body>
+</html>
