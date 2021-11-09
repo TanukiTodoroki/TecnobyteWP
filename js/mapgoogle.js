@@ -11,6 +11,6 @@ function initMap() {
   new google.maps.Marker({
     position: LatLngTecnobyte,
     map,
-    title: "Hello World!",
+    title: "Tecnobyte Península",
   });
 }
